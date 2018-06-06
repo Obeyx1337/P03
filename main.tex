@@ -57,6 +57,14 @@ UR2 & 6.55 V \\\hline
     \caption{Kedes elementu spriegumi un vertibas}
     \label{Teoretiska tabula}
 \end{table}
+\begin{tikzpicture}
+\begin{axis}[
+    title = {UR2 = f(R2)},
+    xlabel = R2,
+    ylabel = UR2]
+\addplot [black, very thick]{16.5*x/(7+x)};
+\end{axis}
+\end{tikzpicture}
 \chapter{Praktiska dala}
 \section{Darbs ar GEDA programmām}
 \subsection{darbs ar gschem}
